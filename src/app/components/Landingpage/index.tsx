@@ -52,20 +52,48 @@
 
 
 // components/LandingPage.js
+// import React from 'react';
+// import Image from 'next/image';
+
+// const LandingPage = () => {
+//   return (
+//     <main className="container mx-auto mt-8 px-4">
+//       <div className="flex items-center justify-between">
+//         <div className="w-1/2">
+//           <h1 className="text-4xl font-bold text-gray-800 mb-4">Nagelle Pharmaceutical</h1>
+//           <p className="text-xl text-gray-600 mb-8">Your Pharmaceuticals partner of choice</p>
+          
+//         </div>
+//         <div className="w-1/2 mb-10">
+//           <Image src="/images/newone.png" alt="Pharmaceutical Illustration" width={600} height={200} />
+//         </div>
+//       </div>
+//     </main>
+//   );
+// };
+
+// export default LandingPage;
+
+
 import React from 'react';
 import Image from 'next/image';
 
 const LandingPage = () => {
   return (
     <main className="container mx-auto mt-8 px-4">
-      <div className="flex items-center justify-between">
-        <div className="w-1/2">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Nagelle Pharmaceutical</h1>
-          <p className="text-xl text-gray-600 mb-8">Your Pharmaceuticals partner of choice</p>
-          
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="w-full md:w-1/2 mb-8 md:mb-0">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nagelle Pharmaceutical</h1>
+          <p className="text-lg md:text-xl text-gray-600 mb-8">Your Pharmaceuticals partner of choice</p>
         </div>
-        <div className="w-1/2 mb-10">
-          <Image src="/images/newone.png" alt="Pharmaceutical Illustration" width={600} height={200} />
+        <div className="w-full md:w-1/2 mb-10">
+          <Image 
+            src="/images/newone.png" 
+            alt="Pharmaceutical Illustration" 
+            width={600} 
+            height={200} 
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </main>

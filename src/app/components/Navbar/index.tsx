@@ -74,8 +74,8 @@ const HomePage = () => {
             className="ml-0 md:ml-24 h-16 sm:h-20 md:h-24 lg:h-[120px]" 
             src="/images/logo3.png" 
             alt="Nagelle Pharma Logo"
-            width={250} // Specify appropriate width
-            height={200} // Specify appropriate height
+            width={200} // Specify appropriate width
+            height={80} // Specify appropriate height
           />
         </div>
    

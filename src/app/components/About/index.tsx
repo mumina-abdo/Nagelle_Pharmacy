@@ -61,7 +61,7 @@ const WhoWeAre = () => {
           <h2 className="text-blue-500 text-lg font-semibold mb-2">WHO WE ARE</h2>
           <h3 className="text-3xl font-bold text-gray-800 mb-4">Marsabit's Best<br />Pharmaceutical Company</h3>
           <p className="text-gray-600 mb-6">
-            We are number one Marsabit's leading pharmaceutical players. Our strengths lie in quality products with very competitive pricing, excellent customer care services, and timely delivery.
+            We are number one Marsabits leading pharmaceutical players. Our strengths lie in quality products with very competitive pricing, excellent customer care services, and timely delivery.
           </p>
           <PercentageBar label="Customer Care Service" percentage={99} />
           <PercentageBar label="Delivery" percentage={98} />

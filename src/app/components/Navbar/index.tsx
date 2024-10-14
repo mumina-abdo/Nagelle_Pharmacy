@@ -46,6 +46,7 @@
 
 
 import React from 'react';
+import Image from 'next/image';
 import Head from 'next/head';
 
 const HomePage = () => {
@@ -69,12 +70,15 @@ const HomePage = () => {
       <header className="flex flex-col md:flex-row justify-between items-center p-5">
         {/* Logo */}
         <div>
-          <img 
+          <Image
             className="ml-0 md:ml-24 h-16 sm:h-20 md:h-24 lg:h-[120px]" 
             src="/images/logo3.png" 
             alt="Nagelle Pharma Logo"
+            width={250} // Specify appropriate width
+            height={200} // Specify appropriate height
           />
         </div>
+   
 
         {/* Navigation Links */}
         <nav className="mt-4 md:mt-0">
